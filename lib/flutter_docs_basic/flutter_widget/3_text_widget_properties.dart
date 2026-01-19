@@ -13,10 +13,10 @@ void main() {
           backgroundColor: Colors.deepOrange,
         ),
         body: Text(
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry dummy text of the printing and typesetting industry dummy text of the printing and typesetting industry.",
           textDirection: TextDirection.ltr,
           // textDirection: TextDirection.rtl,
-         // textAlign: TextAlign.right,
+          // textAlign: TextAlign.right,
           textAlign: TextAlign.left,
           //  textAlign: TextAlign.center,
           overflow: TextOverflow.ellipsis,
