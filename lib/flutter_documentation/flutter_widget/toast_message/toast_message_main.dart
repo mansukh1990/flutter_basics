@@ -22,7 +22,7 @@ class ToastMessageApp extends StatelessWidget {
         body: Center(
           child: ElevatedButton(
             onPressed: () {
-              commonToast("Flutter toast");
+              showToast("Flutter toast");
             },
             child: Text("Show Toast"),
           ),

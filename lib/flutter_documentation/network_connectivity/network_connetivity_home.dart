@@ -21,11 +21,11 @@ class NetworkConnectivityPage extends StatelessWidget {
         child: ElevatedButton(
           onPressed: () async {
             if (await NetworkUtil.isNetworkAvailable()) {
-              commonToast("Network is available");
+              showToast("Network is available");
               print("Network is available");
             } else {
               print("Network is not available");
-              commonToast("Network is not available");
+              showToast("Network is not available");
             }
           },
           child: Text("Check Net"),

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
-commonToast(String message) {
+showToast(String message) {
   return Fluttertoast.showToast(
     msg: message,
     toastLength: Toast.LENGTH_SHORT,
