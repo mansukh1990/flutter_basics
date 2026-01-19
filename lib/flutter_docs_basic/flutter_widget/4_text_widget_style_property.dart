@@ -36,7 +36,13 @@ void main() {
             ]),
             decorationColor: Colors.blue,
             decorationStyle: TextDecorationStyle.dashed,
-            shadows: [Shadow(color: Colors.green,blurRadius: 4.0,offset: Offset(4, 1))]
+            shadows: [
+              Shadow(
+                color: Colors.green,
+                blurRadius: 4.0,
+                offset: Offset(4, 1),
+              ),
+            ],
           ),
         ),
       ),
