@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bascis/dart_opps/sample.dart';
+import 'package:flutter_bascis/flutter_docs_basic/dart_opps/sample.dart';
 
 void main() {
   runApp(MyApp());
